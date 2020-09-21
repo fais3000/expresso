@@ -1,0 +1,8 @@
+version: '3'
+services:
+  espresso:
+    build:
+      context: .
+    container_name: espresso
+    ports:
+      - 8000:80
